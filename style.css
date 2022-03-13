@@ -1,0 +1,179 @@
+        @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@400;700&display=swap');
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+        
+        body {
+            background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+        
+        .imgDiv {
+            /* border: solid green 2px; */
+            display: flex;
+        }
+        
+        .mainImgMob {
+            width: 250px;
+            position: absolute;
+            margin-left: 54px;
+            margin-top: -3px;
+        }
+        
+        .shadowImgMob {
+            width: 250px;
+            position: relative;
+            top: 115px;
+            margin-left: 54px;
+        }
+        
+        .mainImgDesktop {
+            display: none;
+        }
+        
+        .shadowImgDesktop {
+            display: none;
+        }
+        
+        .boxImg {
+            display: none;
+        }
+        
+        h1 {
+            display: flex;
+            margin: 130px 0 20px 0;
+            align-self: center;
+            font-size: 30px;
+        }
+        
+        .faqDiv {
+            display: flex;
+            flex-direction: column;
+            font-size: 12px;
+            width: 340px;
+            height: 510px;
+            background-color: #FFFFFF;
+            border-radius: 15px;
+        }
+        
+        .question_title {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 22px 0 22px;
+            font-weight: 400;
+            font-size: 14px;
+            cursor: pointer;
+            transition: 0.3 s;
+        }
+        
+        .arrowDown {
+            margin: 5px 0 0 0;
+            display: flex;
+            height: 8px;
+            width: 10px;
+            /* transform: rotate(0.5turn); */
+        }
+        
+        .answer {
+            margin: 10px 60px 0 22px;
+            font-weight: 400;
+            font-size: 12px;
+            display: none;
+        }
+        
+        hr {
+            height: 1px;
+            margin: 15px 22px 0 22px;
+            background-color: hsl(240, 5%, 91%);
+            border: none;
+        }
+        
+        .attribution {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            font-size: 11px;
+            text-align: center;
+            display: flex;
+        }
+        
+        .active {
+            display: block;
+        }
+        
+        .activeQuestion {
+            font-weight: 700;
+        }
+        
+        .activeQuestion .arrowDown {
+            transform: rotate(0.5turn);
+        }
+        
+        @media (min-width:376px) {
+            h1 {
+                margin-top: 30px;
+                margin-left: 20px;
+                align-self: baseline;
+            }
+            .question_title:hover {
+                color: hsl(14, 88%, 65%);
+            }
+            section {
+                display: flex;
+                background-color: #FFFFFF;
+                width: 720px;
+                height: 450px;
+                justify-content: space-between;
+                align-items: center;
+                border-radius: 15px;
+            }
+            .mainImgMob {
+                display: none;
+            }
+            .shadowImgMob {
+                display: none;
+                position: absolute;
+            }
+            .boxImg {
+                width: 150px;
+                display: block;
+                position: absolute;
+                margin-left: -75px;
+                margin-top: 40px;
+                z-index: 99;
+            }
+            .imgDiv {
+                overflow: hidden;
+                position: relative;
+                height: 400px;
+            }
+            .mainImgDesktop {
+                width: 320px;
+                display: block;
+                position: absolute;
+                margin-left: -50px;
+                top: 90px;
+            }
+            .shadowImgDesktop {
+                display: block;
+                position: relative;
+                height: 530px;
+                left: -280px;
+                top: -80px;
+            }
+            .faqDiv {
+                width: 600px;
+                height: 400px;
+                margin-right: 50px;
+            }
+        }

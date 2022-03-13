@@ -1,0 +1,69 @@
+# Frontend Mentor - FAQ accordion card solution
+
+This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help to improve coding skills by building realistic projects. 
+
+The challenge was to build out FAQ accordion card and get it looking as close to the design as possible.
+
+Users should be able to:
+
+- View the optimal layout for the component depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Hide/Show the answer to a question when the question is clicked
+
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the component depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Hide/Show the answer to a question when the question is clicked
+
+
+### Links
+
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+
+### What I learned
+
+Since I am just a beginner, this challenge was quite a thing for me. It took me quite a long time, few attempts and many different approaches to complete it. It is not perfect but I am happy with what I achieved (f.e. I shortened my code from 120 to only 27 lines!). 
+
+I struggled most with figuring out where to put "addeventlisteners" to make paragraphs appears one by one. I have also overwrote CSS two times - after finishing style for mobile application, I found out that I didn't take into consideration some parts that were going to be necessary for desktop design. However, as people say, you learn from your mistakes :) And this challenge was a great example how much you learn and improve by doing and finding your mistakes. 
+
+
+### Useful resources
+
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - As always, a great resource for mastering flexbox.
+- [Udemy](https://www.udemy.com/course/the-complete-javascript-course/) - This course is helping me to understand JavaScript more. Great teacher with great lessons, projects and examples.
+- [MDN](https://developer.mozilla.org/en-US/) - Useful information with recent updates.
+
+
+## Author
+
+- GitHub - [Add your name here](https://github.com/dovanaite)
+- Frontend Mentor - [@dovanaite](https://www.frontendmentor.io/profile/dovanaite)
+
+
